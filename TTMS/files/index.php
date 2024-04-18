@@ -33,34 +33,6 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
     </div>
 </div>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators" style="margin-bottom: 160px">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="assets/img/lab1.jpg" alt="Welcome to Vishwakarma University">
-        </div>
-
-        <div class="item">
-            <img src="assets/img/lab2.jpg" alt="Welcome to Vishwakarma University">
-        </div>
-
-        <div class="item">
-            <img src="assets/img/lab1.jpg" alt="Welcome to Vishwakarma University">
-        </div>
-
-        <div class="item">
-            <img src="assets/img/lab2.jpg" alt="Welcome to Vishwakarma University">
-        </div>
-    </div>
-</div>
 <script type="text/javascript">
     function genpdf() {
         var doc = new jsPDF();
@@ -238,12 +210,13 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
             <h2><strong>Our Location </strong></h2>
             <hr/>
             <div>
-                <h4>Aligarh,
-                    Uttar Pradesh,
+                <h4>Laxmi Nagar,
+                    Kondhwa Budruk, Pune.
+                    Maharashtra, India.
                 </h4>
-                <h4>India - 202 002</h4>
-                <h4><strong>Call:</strong> 2700920, 2400921 Ext.1121 </h4>
-                <h4><strong>Email: </strong>controller.amu@amu.ac.in</h4>
+                <h4>India - 411 048</h4>
+                <h4><strong>Call:</strong> +91 9067002223 / 24  </h4>
+                <h4><strong>Email: </strong>connect@vupune.ac.in </h4>
             </div>
 
 
