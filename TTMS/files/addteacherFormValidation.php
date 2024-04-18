@@ -38,7 +38,7 @@ for ($i = 0; $i < 6; $i++) {
     mysqli_query(mysqli_connect("localhost", "root", "", "ttms"), $sql);
 }
 if ($q) {
-    $message = "Teavher added.\\nTry again.";
+    $message = "Teacher added.\\nTry again.";
     echo "<script type='text/javascript'>alert('$message');</script>";
     header("Location:addteachers.php");
 } else {

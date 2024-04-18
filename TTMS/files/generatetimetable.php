@@ -148,12 +148,9 @@ if (isset($_GET['success'])) {
     <div align="center" style="margin-top: 20px">
         <select name="select_semester" class="list-group-item">
             <option selected disabled>Select Semester</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+            <option value="5">4</option>
         </select>
         <button type="submit" id="viewsemester" class="btn btn-success btn-lg" style="margin-top: 5px">VIEW TIMETABLE
         </button>

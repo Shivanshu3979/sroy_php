@@ -28,7 +28,7 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
 <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
     <div class="container">
         <div align="center">
-            <h3 align="center">TIME TABLE MANAGEMENT SYSTEM, COMPUTER ENGINEERING DEPARTMENT, AMU</h3>
+            <h3 align="center">TIME TABLE MANAGEMENT SYSTEM, MCA, VISHWAKARMA UNIVERSITY</h3>
         </div>
     </div>
 </div>
@@ -45,19 +45,19 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="assets/img/lab1.jpg" alt="Chania">
+            <img src="assets/img/lab1.jpg" alt="Welcome to Vishwakarma University">
         </div>
 
         <div class="item">
-            <img src="assets/img/lab2.jpg" alt="Chania">
+            <img src="assets/img/lab2.jpg" alt="Welcome to Vishwakarma University">
         </div>
 
         <div class="item">
-            <img src="assets/img/lab1.jpg" alt="Flower">
+            <img src="assets/img/lab1.jpg" alt="Welcome to Vishwakarma University">
         </div>
 
         <div class="item">
-            <img src="assets/img/lab2.jpg" alt="Flower">
+            <img src="assets/img/lab2.jpg" alt="Welcome to Vishwakarma University">
         </div>
     </div>
 </div>
@@ -84,12 +84,10 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
     <form data-scroll-reveal="enter from the bottom after 0.2s" action="studentvalidation.php" method="post">
         <select id="select_semester" name="select_semester" class="list-group-item">
             <option selected disabled>Select Semester</option>
-            <option value="3"> B.Tech II Year ( Semester III )</option>
-            <option value="4"> B.Tech II Year ( Semester IV )</option>
-            <option value="5"> B.Tech III Year ( Semester V )</option>
-            <option value="6"> B.Tech III Year ( Semester VI )</option>
-            <option value="7"> B.Tech IV Year ( Semester VII )</option>
-            <option value="8"> B.Tech IV Year ( Semester VIII )</option>
+            <option value="3"> MCA ( Semester I )</option>
+            <option value="4"> MCA ( Semester II )</option>
+            <option value="5"> MCA ( Semester III )</option>
+            <option value="6"> MCA ( Semester IV )</option>
         </select>
         <button type="submit" class="btn btn-info btn-lg" style="margin-top: 10px">Download</button>
     </form>
@@ -203,27 +201,27 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
                 <div class="faculty-div">
                     <img src="assets/img/faculty/dean.jpeg" class="img-rounded"/>
-                    <h3 align="center">Prof. Mumtaz Ahmad Khan</h3>
+                    <h3 align="center">Prof. APARNA KULKARNI</h3>
                     <hr/>
-                    <h4 align="center">Dean<br/>F/o Engineering & Technology</h4>
+                    <h4 align="center">Professor<br/>MCA</h4>
 
                 </div>
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                 <div class="faculty-div">
                     <img src="assets/img/faculty/principal.jpeg" class="img-rounded"/>
-                    <h3 align="center">PROF. M.M. SUFYAN BEG</h3>
+                    <h3 align="center">Prof. GAURI KULKARNI</h3>
                     <hr/>
-                    <h4 align="center">Principal<br/> ZHCET</h4>
+                    <h4 align="center">Professor<br/>MCA</h4>
 
                 </div>
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                 <div class="faculty-div">
                     <img src="assets/img/faculty/chairman.jpeg" class="img-rounded"/>
-                    <h3 align="center">PROF. MOHAMMAD SAROSH UMAR</h3>
+                    <h3 align="center">PROF. YOGESH DESALE</h3>
                     <hr/>
-                    <h4 align="center">Chairman<br/>Computer Engineering Department</h4>
+                    <h4 align="center">Professor<br/>MCA</h4>
 
                 </div>
             </div>
