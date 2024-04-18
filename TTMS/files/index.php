@@ -33,8 +33,10 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
     </div>
 
     <div class="navigation">
-        <button>Teacher login</button>
-        <button>Admin login</button>
+        <button data-scroll-reveal="enter from the bottom after 0.2s"
+            id="teacherLoginBtn" >Teacher login</button>
+        <button data-scroll-reveal="enter from the bottom after 0.2s"
+            id="adminLoginBtn" >Admin login</button>
         <div>
             <form  style="margin:0;padding:0;" data-scroll-reveal="enter from the bottom after 0.2s" action="studentvalidation.php" method="post">
                 <select id="select_semester" name="select_semester" >
@@ -62,11 +64,9 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
 </script>
 <div class="menu_bar">
 <div>
-    <button data-scroll-reveal="enter from the bottom after 0.2s"
-            id="teacherLoginBtn" >TEACHER LOGIN
+    <button >TEACHER LOGIN
     </button>
-    <button data-scroll-reveal="enter from the bottom after 0.2s"
-            id="adminLoginBtn" >ADMIN LOGIN
+    <button >ADMIN LOGIN
     </button>
 </div>
 <div>

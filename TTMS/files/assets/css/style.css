@@ -19,16 +19,48 @@ body {
     ===================================*/
 
 .navigation{
-    display:flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: flex-end;
+    background-color: #00000000;
 }
-
+.navigation button{
+    background-color: #04aa6d;
+    border:0px;
+    border-left:1px solid rgb(0, 0, 0);
+    transition: all 0.2s;
+    padding:5px 5px;
+    font-size: 14px;
+}
+.navigation select{
+    background-color: #2d3d5a;
+    border:0px;
+    border-left:1px solid rgb(0, 0, 0);
+    transition: all 0.2s;
+    padding:5px 5px;
+}
+.navigation button:hover, .navigation select:hover{
+    background-color: rgba(28, 43, 75, 1);
+    padding:5px 5px;
+    box-shadow: 0px 20px #d9eee1;
+}
+.navigation form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: flex-end;
+}
 .logo-custom {
     max-height: 40px;
 }
 
 .menu_bar{
     display: flex;
-    flex-direction: column;
 }
 
 .menu_bar button{
