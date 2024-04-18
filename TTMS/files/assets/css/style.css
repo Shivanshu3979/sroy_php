@@ -1,17 +1,4 @@
-﻿/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-
-/* =============================================================
-   GENERAL STYLES
- ============================================================ */
+﻿
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
@@ -31,8 +18,24 @@ body {
   NAVBAR STYLES 
     ===================================*/
 
+.navigation{
+    display:flex;
+}
+
 .logo-custom {
     max-height: 40px;
+}
+
+.menu_bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_bar button{
+    width: 10em;;
+    height:2em;
+    margin:0;
+    padding: 0px 3px 3px 3px;
 }
 
 #menu {
@@ -42,8 +45,11 @@ body {
     font-weight: 900;
     letter-spacing: 1px;
     min-height: 70px;
+    position:fixed;
 }
-
+.btn-info{
+    margin-bottom:10px;
+}
 .navbar-inverse {
     border-color: transparent;
 }
@@ -59,7 +65,6 @@ body {
 
 .modal {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
@@ -309,6 +314,7 @@ h1::after {
 #faculty-sec {
     background-color: #000;
     color: #fff;
+    margin:100px;
 }
 
 #faculty-sec .header-line {

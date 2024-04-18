@@ -31,6 +31,23 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
             <h3 align="center">TIME TABLE MANAGEMENT SYSTEM, MCA, VISHWAKARMA UNIVERSITY</h3>
         </div>
     </div>
+
+    <div class="navigation">
+        <button>Teacher login</button>
+        <button>Admin login</button>
+        <div>
+            <form  style="margin:0;padding:0;" data-scroll-reveal="enter from the bottom after 0.2s" action="studentvalidation.php" method="post">
+                <select id="select_semester" name="select_semester" >
+                    <option selected disabled>Select Semester</option>
+                    <option value="3"> MCA ( Semester I )</option>
+                    <option value="4"> MCA ( Semester II )</option>
+                    <option value="5"> MCA ( Semester III )</option>
+                    <option value="6"> MCA ( Semester IV )</option>
+                </select>
+                <button type="submit">Download</button>
+            </form>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript">
@@ -43,26 +60,18 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
         window.alert("Downloaded!");
     }
 </script>
-<div align="center" STYLE="margin-top: 30px">
+<div class="menu_bar">
+<div>
     <button data-scroll-reveal="enter from the bottom after 0.2s"
-            id="teacherLoginBtn" class="btn btn-info btn-lg">TEACHER LOGIN
+            id="teacherLoginBtn" >TEACHER LOGIN
     </button>
     <button data-scroll-reveal="enter from the bottom after 0.2s"
-            id="adminLoginBtn" class="btn btn-success btn-lg">ADMIN LOGIN
+            id="adminLoginBtn" >ADMIN LOGIN
     </button>
 </div>
-<br>
-<div align="center">
-    <form data-scroll-reveal="enter from the bottom after 0.2s" action="studentvalidation.php" method="post">
-        <select id="select_semester" name="select_semester" class="list-group-item">
-            <option selected disabled>Select Semester</option>
-            <option value="3"> MCA ( Semester I )</option>
-            <option value="4"> MCA ( Semester II )</option>
-            <option value="5"> MCA ( Semester III )</option>
-            <option value="6"> MCA ( Semester IV )</option>
-        </select>
-        <button type="submit" class="btn btn-info btn-lg" style="margin-top: 10px">Download</button>
-    </form>
+<div>
+    
+</div>
 </div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -173,7 +182,7 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
                 <div class="faculty-div">
                     <img src="assets/img/faculty/dean.jpeg" class="img-rounded"/>
-                    <h3 align="center">Prof. APARNA KULKARNI</h3>
+                    <h4 align="center">Prof. APARNA KULKARNI</h4>
                     <hr/>
                     <h4 align="center">Professor<br/>MCA</h4>
 
@@ -182,7 +191,7 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                 <div class="faculty-div">
                     <img src="assets/img/faculty/principal.jpeg" class="img-rounded"/>
-                    <h3 align="center">Prof. GAURI KULKARNI</h3>
+                    <h4 align="center">Prof. GAURI KULKARNI</h4>
                     <hr/>
                     <h4 align="center">Professor<br/>MCA</h4>
 
@@ -191,7 +200,7 @@ if (isset($_GET['generated']) && $_GET['generated'] == "false") {
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                 <div class="faculty-div">
                     <img src="assets/img/faculty/chairman.jpeg" class="img-rounded"/>
-                    <h3 align="center">PROF. YOGESH DESALE</h3>
+                    <h4 align="center">PROF. YOGESH DESALE</h4>
                     <hr/>
                     <h4 align="center">Professor<br/>MCA</h4>
 
